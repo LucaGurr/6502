@@ -8,8 +8,8 @@ void initialise(MEM *mem) {
 }
 
 void reboot(CPU *cpu, MEM *mem) {
-    cpu->PC     = 0xFFFC;       // Program Counter:      *65.532*
-    cpu->SP     = 0xFF;         // Stack Pointer:       *255*
+    cpu->PC     = 0xFFFC;       // Program Counter:         *65.532*
+    cpu->SP     = 0xFF;         // Stack Pointer:           *255*
 
     // setting all 3 registers to 0
     cpu->A      = 0;
