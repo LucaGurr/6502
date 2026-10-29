@@ -1,5 +1,6 @@
 #include <stdio.h>
-#include <defs.c>
+#include "defs.h"
+#include "funcs.c"
 
 int main() {
     CPU cpu;
